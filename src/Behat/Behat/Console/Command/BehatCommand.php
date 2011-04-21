@@ -800,8 +800,8 @@ ENVIRONMENT
         if (!file_exists($path) && file_exists(getcwd() . DIRECTORY_SEPARATOR . $path)) {
             $path = getcwd() . DIRECTORY_SEPARATOR . $path;
         }
-
         return $path;
+
     }
 
     /**
