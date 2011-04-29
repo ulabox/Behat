@@ -1,3 +1,5 @@
 default:
+  paths:
+    features:               %%BEHAT_CONFIG_PATH%%/features
   formatter:
     name:                   progress

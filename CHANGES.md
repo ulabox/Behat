@@ -1,3 +1,25 @@
+1.1.3 / 2011-04-28
+==================
+
+  * JUnit formatter fix
+  * Formatters basePath fix. Now formatters uses CWD as path trimmer
+  * Relative paths locator bug fix
+  * Show table argument header in HTML formatter
+
+1.1.2 / 2011-04-27
+==================
+
+  * Fixed custom features path locator bug(issue #020)
+
+1.1.1 / 2011-04-21
+==================
+
+  * Fixed paths finding routines
+  * Totally refactored BehatCommand
+  * Added rerun functionality (`--rerun`)
+  * Ability to remove previously specified paths in `behat.yml`
+  * Bugfixes and little tweaks
+
 1.1.0 / 2011-04-04
 ==================
 
